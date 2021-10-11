@@ -1,0 +1,189 @@
+#Menu
+{
+  width: 100%;
+  height:95vh;
+  background: url(w.jpg);
+  background-size: 100%;
+  position: right;
+  align-items: right;
+  
+ }
+ ul
+ { 
+ list-style:none;
+ }
+ li
+ {
+  display:inline;
+  padding:40px;
+  width: 70%;
+  
+  }
+  li a
+  {
+   color:#00FF33;
+   text-decoration:none;
+   font-size:24px;
+   }
+   li a:hover
+   {
+    color:#FFFFFF;
+	}
+	li a:active
+	{
+	 color:#0000FF;
+	 }
+   
+   #t
+   {
+    font-style: bold;
+
+  font-size: 30px;
+  color:yellow;
+  font-family: "Times New Roman", Times, serif;
+
+
+  animation-direction: right;
+}
+   
+   #b
+   {  width: 100%;
+  height:50vh;
+  font-size: 15px;
+  font-family: arial;
+  color: purple;
+  
+    background-color:white;
+   }
+
+#b
+{
+ text-decoration:bold;
+
+  
+  
+
+}
+
+
+.body
+
+{ 
+  
+width: 100%;
+  height:20%;
+   font-size:40px;
+  font-family: arial;
+  color: white;
+  background-size: 100%;
+  background-color: black;
+  font-style: 
+
+  
+  background: red;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {background-color: red;}
+  to {background-color: blue;}
+}
+
+.g
+{
+  background-color: #DCDCDC;
+  background-size: 100px;
+  width: 100%;
+  height:70%;
+   font-size:40px;
+  font-family: arial;
+  color: white;
+  background-size: 100%;
+  
+  font-style: 
+
+  a:link {
+  color: maroon;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+}
+
+
+
+
+/*#v
+{
+background-color: yellow;
+ 
+}
+ /*.left
+ {
+
+  column-count: 3;
+  position: absolute;
+  left: : 0px;
+  width: 30%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+   height: 50vh;
+  border-color:  red;
+  background-color: black;
+ /* width:  100%;
+  height:   129%;*/
+.gr
+{
+   
+width: 100%;
+  height:120%;
+   font-size:40px;
+  font-family: arial;
+  color: white;
+  background-size: 100%;
+  background-color: black;
+  font-style: all;
+ border: 5px solid grey;
+  
+  background: red;
+  animation: example 5s infinite;
+
+  
+
+  
+
+  }
+
+@keyframes example {
+  0%   {background-color:#9ACD32; left:0px; top:0px;}
+  25%  {background-color:grey; left:200px; top:0px;}
+  50%  {background-color: #DB7093;; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  
+}
+
+
+
+
+
+}
+}
+
+
+  
+
+}
